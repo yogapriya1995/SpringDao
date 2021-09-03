@@ -103,8 +103,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<packaging>war</packaging>
-
+	
 		
 
 	<build>
@@ -115,6 +114,7 @@
 			</plugin>
 		</plugins>
 	</build>
+	
 	<profiles>
     <profile>
           <id>openshift</id>
@@ -130,5 +130,6 @@
       </build>
     </profile>
   </profiles>
+<packaging>war</packaging>
 	
 </project>
